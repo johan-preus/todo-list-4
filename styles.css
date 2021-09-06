@@ -1,0 +1,23 @@
+#todo-list p {
+    display: inline;
+    cursor: pointer;
+
+}
+
+#todo-list p:hover {
+    background-color: red;
+}
+
+#todo-list>li:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h1 {
+    text-align: center;
+}
